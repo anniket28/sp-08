@@ -18,7 +18,7 @@ const Footer = () => {
 
   return (
     <div>
-        <footer className='bg-slate-100 py-5'>
+        <footer className='bg-slate-100 py-5 shadow-inner'>
             {/*  */}
             <div className='flex justify-center flex-col items-center space-y-5 md:flex-row md:space-x-20 md:space-y-0 lg:flex-row lg:space-y-0 lg:space-x-20'>
                 {/*  */}
