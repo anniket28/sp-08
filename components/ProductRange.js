@@ -40,51 +40,51 @@ const ProductRange = () => {
                     <div className="carousel-item active">
                         <div className='space-x-0 flex justify-center flex-col items-center space-y-3 lg:space-x-3 lg:space-y-0 lg:items-stretch lg:flex-row'>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-indigo-500 text-white rounded-md py-[6px] sm:px-4'>New Items</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-orange-500 text-white rounded-md py-[6px] sm:px-4'>Electrotherapy Equipments</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-red-500 text-white rounded-md py-[6px] sm:px-4'>Rehabilitation Items</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-lime-600 text-white rounded-md py-[6px] sm:px-4'>Exercise Items</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-slate-500 text-white rounded-md py-[6px] sm:px-4'>Rehabilitation Equipments</button>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-fuchsia-500 text-white rounded-md py-[6px] sm:px-4'>Therapy Unit</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-lime-600 text-white rounded-md py-[6px] sm:px-4'>Exercise Items</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-red-500 text-white rounded-md py-[6px] sm:px-4'>Rehabilitation Items</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-gray-500 text-white rounded-md py-[6px] sm:px-4'>Commode Wheel Chair</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-orange-500 text-white rounded-md py-[6px] sm:px-4'>Electrotherapy Equipments</button>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className='space-x-0 flex justify-center flex-col items-center space-y-3 lg:space-x-3 lg:space-y-0 lg:items-stretch lg:flex-row'>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-red-500 text-white rounded-md py-[6px] sm:px-4'>Stretcher</button>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-slate-500 text-white rounded-md py-[6px] sm:px-4'>Hand Wash</button>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-yellow-600 text-white rounded-md py-[6px] sm:px-4'>Traction Table</button>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-teal-500 text-white rounded-md py-[6px] sm:px-4'>Hand Sanitizer</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-fuchsia-500  text-white rounded-md py-[6px] sm:px-4'>Folding Walker</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-orange-800 text-white rounded-md py-[6px] sm:px-4'>Copier Paper</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-indigo-500 text-white rounded-md py-[6px] sm:px-4'>Stretcher</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-indigo-500 text-white rounded-md py-[6px] sm:px-4'>Original Dettol Bath Soap</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-yellow-900 text-white rounded-md py-[6px] sm:px-4'>Safehands - Auto Hand Sanitizer</button>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-emerald-700 text-white rounded-md py-[6px] sm:px-4 hidden lg:block'>Skin Care Cosmetics</button>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className='space-x-0 flex justify-center flex-col items-center space-y-3 lg:space-x-3 lg:space-y-0 lg:items-stretch lg:flex-row'>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-blue-700 text-white rounded-md py-[6px] sm:px-4'>Wheel Chair</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-fuchsia-500  text-white rounded-md py-[6px] sm:px-4'>Folding Walker</button>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-green-600 text-white rounded-md py-[6px] sm:px-4'>Hospital Furniture</button>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-orange-500 text-white rounded-md py-[6px] sm:px-4'>Ecg Electrode Belts</button>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-pink-800 text-white rounded-md py-[6px] sm:px-4'>Dettol Liquid Handwash</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-gray-500 text-white rounded-md py-[6px] sm:px-4'>Commode Wheel Chair</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-indigo-500 text-white rounded-md py-[6px] sm:px-4'>Disinfectant Liquid</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-fuchsia-500 text-white rounded-md py-[6px] sm:px-4'>Wheel Chair</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-slate-500 text-white rounded-md py-[6px] sm:px-4'>Rehabilitation Equipments</button>
                             </div>
                     </div>
                     <div className="carousel-item">
                         <div className='space-x-0 flex justify-center flex-col items-center space-y-3 lg:space-x-3 lg:space-y-0 lg:items-stretch lg:flex-row'>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-indigo-500 text-white rounded-md py-[6px] sm:px-4'>Hydrocollator</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-orange-600 text-white rounded-md py-[6px] sm:px-4'>Disinfectant Spray</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-orange-500 text-white rounded-md py-[6px] sm:px-4'>Dettol</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-orange-800 text-white rounded-md py-[6px] sm:px-4'>Copier Paper</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-indigo-500 text-white rounded-md py-[6px] sm:px-4'>Disinfectant Liquid</button>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-fuchsia-500 text-white rounded-md py-[6px] sm:px-4'>Motorized Wheelchair</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-green-500 text-white rounded-md py-[6px] sm:px-4'>Steam Vaporizer Machine</button>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-red-500 text-white rounded-md py-[6px] sm:px-4'>Medical Surgical Gown</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-lime-900 text-white rounded-md py-[6px] sm:px-4'>Sonography Gel</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-green-600 text-white rounded-md py-[6px] sm:px-4'>Steam Vaporizer Machine</button>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className='space-x-0 flex justify-center flex-col items-center space-y-3 lg:space-x-3 lg:space-y-0 lg:items-stretch lg:flex-row'>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-orange-500 text-white rounded-md py-[6px] sm:px-4'>Dettol</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-emerald-700 text-white rounded-md py-[6px] sm:px-4 block lg:hidden'>Skin Care Cosmetics</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-indigo-500 text-white rounded-md py-[6px] sm:px-4'>Hydrocollator</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-lime-900 text-white rounded-md py-[6px] sm:px-4'>Sonography Gel</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-orange-600 text-white rounded-md py-[6px] sm:px-4'>Disinfectant Spray</button>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-cyan-800 text-white rounded-md py-[6px] sm:px-4'>Massager Machine</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-indigo-500 text-white rounded-md py-[6px] sm:px-4'>Original Dettol Bath Soap</button>
-                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-yellow-900 text-white rounded-md py-[6px] sm:px-4'>Safehands - Auto Hand Sanitizer</button>
+                            <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-emerald-700 text-white rounded-md py-[6px] sm:px-4 block lg:hidden'>Skin Care Cosmetics</button>
                             <button className='text-sm px-[7px] sm:text-[14px] md:text-base bg-fuchsia-500 text-white rounded-md py-[6px] sm:px-4'>Physiotherapy Equipments and Tens Unit</button>
                         </div>
                     </div>
