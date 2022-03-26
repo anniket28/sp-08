@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Link from 'next/link'
-import {BsFillCaretLeftSquareFill,BsFillCaretRightSquareFill,BsCircle} from 'react-icons/bs'
+import {IoMdArrowDroprightCircle,IoMdArrowDropleftCircle} from 'react-icons/io'
 import Script from 'next/script'
 
 const ProductRange = () => {
@@ -35,7 +35,7 @@ const ProductRange = () => {
         <div id="carouselProductIndicators" className="carousel slide bg-slate-100 shadow-md py-3 px-0 sm:px-20 md:px-40 lg:px-0" data-bs-ride="carousel">
             <h1 className='text-center font-semibold text-[22px] sm:text-[24px] md:text-[27px] lg:text-3xl'>Our Product Range</h1>
             <div className='flex mt-2 items-center'>
-                <button data-bs-target="#carouselProductIndicators" data-bs-slide="prev" className='text-2xl text-sky-500 mx-3'><BsFillCaretLeftSquareFill /></button>
+                <button data-bs-target="#carouselProductIndicators" data-bs-slide="prev" className='text-4xl text-sky-500 mx-3'><IoMdArrowDropleftCircle /></button>
                 <div className="carousel-inner py-3">
                     <div className="carousel-item active">
                         <div className='space-x-0 flex justify-center flex-col items-center space-y-3 lg:space-x-3 lg:space-y-0 lg:items-stretch lg:flex-row'>
@@ -89,7 +89,7 @@ const ProductRange = () => {
                         </div>
                     </div>
                 </div>
-                <button data-bs-target="#carouselProductIndicators" data-bs-slide="next" className='text-2xl text-sky-500 mx-3'><BsFillCaretRightSquareFill /></button>
+                <button data-bs-target="#carouselProductIndicators" data-bs-slide="next" className='text-4xl text-sky-500 mx-3'><IoMdArrowDroprightCircle /></button>
             </div>
         </div>
     </div>
