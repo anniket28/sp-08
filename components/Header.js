@@ -64,7 +64,7 @@ const Header = () => {
             {/*  */}
             <ul id='nav-links' className='flex flex-col justify-center items-center space-y-2 my-2' style={{height:'0px',overflow:'hidden',transition:'0.5s'}}>
               <Link href={'/'} passHref><a className={`cursor-pointer flex items-center ${router.pathname==='/'?'text-white':'text-slate-400'}`}><AiFillHome /><span className='ml-[2px]'>Home</span></a></Link>
-              <Link href={'/our-products'} passHref><a className={`cursor-pointer flex items-center ${router.pathname==='/our-products'?'text-white':'text-slate-400'}`}><span className='text-xl'><GiCardboardBoxClosed /></span><span className='ml-[2px]'>Our Products</span></a></Link>
+              <Link href={'/our-products/NewItems'} passHref><a className={`cursor-pointer flex items-center ${router.pathname==='/our-products'?'text-white':'text-slate-400'}`}><span className='text-xl'><GiCardboardBoxClosed /></span><span className='ml-[2px]'>Our Products</span></a></Link>
               <Link href={'/our-profile'} passHref><a className={`cursor-pointer flex items-center ${router.pathname==='/our-profile'?'text-white':'text-slate-400'}`}><span className='ml-1'>Our Profile</span></a></Link>
               <Link href={'/get-in-touch'} passHref><a className={`cursor-pointer flex items-center ${router.pathname==='/get-in-touch'?'text-white':'text-slate-400'}`}><BsPencilSquare /><span className='ml-1'>Get in touch</span></a></Link>
             </ul>
@@ -79,7 +79,7 @@ const Header = () => {
           <div className='hidden sm:flex sm:flex-col sm:py-3  md:flex md:flex-col md:py-3 lg:py-0 lg:flex lg:flex-row bg-zinc-800 justify-between items-center lg:px-28'>
             <ul className='flex space-x-7'>
               <Link href={'/'}><a className={`flex items-center cursor-pointer hover:text-white ${router.pathname==='/'?'text-white':'text-slate-400'}`}><span className='md:text-xl lg:text-2xl'><AiFillHome /></span><span className='ml-1'>Home</span></a></Link>
-              <Link href={'/our-products'}><a className={`flex items-center cursor-pointer hover:text-white ${router.pathname==='/our-products'?'text-white':'text-slate-400'}`}><span className='sm:text-2xl md:text-2xl lg:text-3xl'><GiCardboardBoxClosed /></span><span className='ml-1'>Our Products</span></a></Link>
+              <Link href={'/our-products/NewItems'}><a className={`flex items-center cursor-pointer hover:text-white ${router.pathname==='/our-products'?'text-white':'text-slate-400'}`}><span className='sm:text-2xl md:text-2xl lg:text-3xl'><GiCardboardBoxClosed /></span><span className='ml-1'>Our Products</span></a></Link>
               <Link href={'/our-profile'}><a className={`flex items-center cursor-pointer hover:text-white ${router.pathname==='/our-profile'?'text-white':'text-slate-400'}`}><span className='md:text-xl lg:text-2xl'><BsInfoCircleFill /></span><span className='ml-1'>Our Profile</span></a></Link>
               <Link href={'/get-in-touch'}><a className={`flex items-center cursor-pointer hover:text-white ${router.pathname==='/get-in-touch'?'text-white':'text-slate-400'}`}><span className='md:text-xl lg:text-2xl'><BsPencilSquare /></span><span className='ml-1'>Get in touch</span></a></Link>
             </ul>

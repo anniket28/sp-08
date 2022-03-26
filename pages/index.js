@@ -115,7 +115,7 @@ export default function Home() {
           </div>
         </div>
         <div className='flex justify-end'>
-          <Link href={'/our-products/NewItems'}><a className='cursor-pointer bg-green-500 rounded-md px-4 py-[7px] text-white hover:bg-sky-500'>Explore Complete Range &rarr;</a></Link>
+          <Link href={'/our-products/NewItems'}><a className='cursor-pointer bg-sky-500 rounded-md px-4 py-[7px] text-white hover:bg-green-500'>Explore Complete Range &rarr;</a></Link>
         </div>
       </div>
 

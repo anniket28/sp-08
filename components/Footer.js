@@ -27,7 +27,7 @@ const Footer = () => {
                     <h3 className='text-xl font-semibold'>Main Menu</h3>
                     <ul className='flex flex-col items-center'>
                         <Link href={'/'} passHref><a className='text-slate-600 hover:text-black mt-1'>Home</a></Link>
-                        <Link href={'/our-products'} passHref><a className='text-slate-600 hover:text-black'>Our Products</a></Link>
+                        <Link href={'/our-products/NewItems'} passHref><a className='text-slate-600 hover:text-black'>Our Products</a></Link>
                         <Link href={'/our-profile'} passHref><a className='text-slate-600 hover:text-black'>Our Profile</a></Link>
                         <Link href={'/get-in-touch'} passHref><a className='text-slate-600 hover:text-black'>Get in touch</a></Link>
                     </ul>
