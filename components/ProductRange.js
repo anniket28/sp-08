@@ -53,8 +53,8 @@ const ProductRange = () => {
                             <button className='bg-yellow-600 text-white rounded-md py-[6px] px-4'>Traction Table</button>
                             <button className='bg-teal-500 text-white rounded-md py-[6px] px-4'>Hand Sanitizer</button>
                             <button className='bg-fuchsia-500  text-white rounded-md py-[6px] px-4'>Folding Walker</button>
-                            <button className='bg-indigo-500 text-white rounded-md py-[6px] px-4'>Stretcher</button>
                             <button className='bg-orange-800 text-white rounded-md py-[6px] px-4'>Copier Paper</button>
+                            <button className='bg-indigo-500 text-white rounded-md py-[6px] px-4'>Stretcher</button>
                             <button className='bg-emerald-700 text-white rounded-md py-[6px] px-4 hidden lg:block'>Skin Care Cosmetics</button>
                         </div>
                     </div>
@@ -73,18 +73,18 @@ const ProductRange = () => {
                             <button className='bg-indigo-500 text-white rounded-md py-[6px] px-4'>Hydrocollator</button>
                             <button className='bg-orange-600 text-white rounded-md py-[6px] px-4'>Disinfectant Spray</button>
                             <button className='bg-fuchsia-500 text-white rounded-md py-[6px] px-4'>Motorized Wheelchair</button>
-                            <button className='bg-lime-900 text-white rounded-md py-[6px] px-4'>Sonography Gel</button>
                             <button className='bg-cyan-500 text-white rounded-md py-[6px] px-4'>Steam Vaporizer Machine</button>
                             <button className='bg-red-500 text-white rounded-md py-[6px] px-4'>Medical Surgical Gown</button>
+                            <button className='bg-lime-900 text-white rounded-md py-[6px] px-4'>Sonography Gel</button>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className='space-x-0 flex justify-center flex-col items-center space-y-3 lg:space-x-3 lg:space-y-0 lg:items-stretch lg:flex-row'>
-                            <button className='bg-emerald-700 text-white rounded-md py-[6px] px-4 block lg:hidden'>Skin Care Cosmetics</button>
                             <button className='bg-orange-500 text-white rounded-md py-[6px] px-4'>Dettol</button>
+                            <button className='bg-emerald-700 text-white rounded-md py-[6px] px-4 block lg:hidden'>Skin Care Cosmetics</button>
                             <button className='bg-cyan-800 text-white rounded-md py-[6px] px-4'>Massager Machine</button>
-                            <button className='bg-yellow-900 text-white rounded-md py-[6px] px-4'>Safehands - Auto Hand Sanitizer</button>
                             <button className='bg-indigo-500 text-white rounded-md py-[6px] px-4'>Original Dettol Bath Soap</button>
+                            <button className='bg-yellow-900 text-white rounded-md py-[6px] px-4'>Safehands - Auto Hand Sanitizer</button>
                             <button className='bg-fuchsia-500 text-white rounded-md py-[6px] px-4'>Physiotherapy Equipments and Tens Unit</button>
                         </div>
                     </div>
