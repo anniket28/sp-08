@@ -24,7 +24,7 @@ const BackToTop = () => {
     
   return (
     <div>
-        {showButton && <span onClick={backToTop} className="fixed bottom-5 right-3 cursor-pointer z-50 text-6xl rounded-full text-green-500"><IoIosArrowDropupCircle /></span>}
+        {showButton && <span onClick={backToTop} className="fixed bottom-5 right-1 cursor-pointer z-50 text-6xl rounded-full text-green-500"><IoIosArrowDropupCircle /></span>}
     </div>
   )
 }
