@@ -1,5 +1,7 @@
 import React,{useState} from 'react'
 import Head from 'next/head'
+import Swal from 'sweetalert2'
+import config from '../config.json'
 
 const GetInTouch = () => {
     // Use States
@@ -27,6 +29,27 @@ const GetInTouch = () => {
     // Handle Submit
     const handleSubmit=(event)=>{
         event.preventDefault()
+        const userData={name,email,contact,enquiry}
+
+        fetch(`${config.host}/api/postReqs/postUserEnquiry`,{
+            method:'POST',
+            headers:{
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify(userData)
+        }).then(response=>response.text())
+        .then(result=>{
+            Swal.fire({
+                title: 'Success',
+                text: 'Thank you for getting in touch with us! We will get back to you soon.',
+                icon: 'success',
+                confirmButtonText: 'Ok'
+            })
+            setname('')
+            setemail('')
+            setcontact('')
+            setenquiry('')
+        })
     }
 
     // Handle Reset
